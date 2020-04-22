@@ -39,10 +39,12 @@
     font-size: 60px;
     font-weight: 500;
     margin: 25px;
+    color: #fafafa;
 }
 .style-text-header-index{
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
+    color: #fafafa;
 
 }
 /* code for the style for the learn section */
@@ -56,16 +58,20 @@
     font-size: 40px;
     letter-spacing: 2px;
     font-weight: 500;
+    color: #fafafa;
 }
 .style-text-for-learn-tilte{
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
+    color: #fafafa;
 }
 .sortIcons{
     text-align: center;
     font-size: 40px;
     box-shadow: 5px 5px 20px #000;
     height: 100%;
+    color: #fafafa;
+    background: #04040480;
 
 
 }
@@ -73,6 +79,12 @@
     font-size: 20px;
 }
 /* code for the market area */
+@media only screen and (max-width: 600px){
+     img{
+      margin-bottom: 5px;
+      margin-top: 5px;
+    }
+}
 .style-market{
     text-align: center;
     text-transform: uppercase;
@@ -101,4 +113,81 @@
 .style-market-p span{
     opacity: 0.5;
     font-size: 12px;
+}
+/* style for footer */
+.style-footer{
+    background-color: #5f5d5d;
+}
+.style-footer ul a{
+    text-decoration: none;
+}
+.style-footer ul a li{
+    list-style: none;
+    color: #fafafa;
+    font-size: 20px;
+    transition: ease 0.5s
+}
+.style-footer ul a li:hover{
+    color: red;
+}
+.style-footer h4{
+    color: #fafafa;
+    font-size: 25px;
+    margin: 10px;
+
+}
+.style-footer i {
+    color: #fafafa;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    margin: 5px;
+    padding: 10px;
+    border: solid 2px #fafafa;
+    border-radius: 50%;
+    transition: ease-in-out 0.5s;
+}
+.style-footer i:hover{
+    background-color: red;
+    border-radius: 30%;
+}
+.style-footer p{
+    color: #fafafa;
+    margin: 5px;
+}
+/* code for the contact.html */
+.contan-title{
+    text-align: center;
+    margin: 15px;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #35d8d8;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 20px;
 }

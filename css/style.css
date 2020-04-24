@@ -3,11 +3,11 @@
     background-image: url("https://www.revistaelabasto.com.ar/wp-content/uploads/2020/01/fruitveg.jpeg");
     background-repeat: no-repeat;
 }
-.header-style ul{
+.header-style p{
     list-style: none;
-    display: flex;
+    display: table-cell;
     justify-content: space-around;
-    width: 90%;
+    width: 25%;
     font-size: 25px;
     font-weight: 400;
     margin-top: 20px;
@@ -17,15 +17,15 @@
       display: block;
     }
 }
-.header-style ul a{
+.header-style a{
     text-decoration: none;
     color: #fafafa;
 }
-.header-style ul li{
+.header-style a p{
     transition: ease-in-out 0.5s;
 
 }
-.header-style ul li:hover{
+.header-style a p:hover{
    color: #17bf15;
 }
 @media only screen and (max-width: 600px){
@@ -118,16 +118,16 @@
 .style-footer{
     background-color: #5f5d5d;
 }
-.style-footer ul a{
+.style-footer  a{
     text-decoration: none;
 }
-.style-footer ul a li{
+.style-footer  a p{
     list-style: none;
     color: #fafafa;
     font-size: 20px;
     transition: ease 0.5s
 }
-.style-footer ul a li:hover{
+.style-footer a p:hover{
     color: red;
 }
 .style-footer h4{
@@ -190,4 +190,130 @@ input[type=submit]:hover {
 .container {
   border-radius: 5px;
   padding: 20px;
+}
+/* code for the style of plants.html */
+.title-plants{
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.title-plants i{
+    font-size: 40px;
+    animation: leaf-icon-color-change 5s infinite;
+    transition: ease-in-out;
+}
+
+@keyframes leaf-icon-color-change {
+  0%   {color: #b80915;
+font-size:40px
+  }
+  15%  {color: #f2d56a;
+  font-size:45px
+  }
+  30%  {color: #b9c839;
+  font-size:40px
+  }
+  45%  {color: #3f2129;
+  font-size:35px
+  }
+  60%  {color: #f0ec7f;
+  font-size:40px
+  }
+  75%  {color: #ce3528;
+  font-size:45px
+  }
+  90%  {color: #362c45;
+  font-size:40px
+  }
+  100% {color: #000000;
+  font-size:35px
+  }
+}
+.style-for-card-plant-html{
+    border:solid 2px #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px #000;
+    transition: ease-in-out 0.5s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.style-for-card-plant-html:hover{
+   box-shadow: 5px 5px 20px #4dd03280; 
+   border:solid 2px #4dd03280;
+}
+.style-for-card-plant-html img{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.style-for-card-plant-html p{
+    text-align: center;
+    margin: 5px;
+}
+.style-for-card-plant-html h6{
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin: 10px;
+}
+.style-for-card-plant-html span{
+    margin: 15px;
+    opacity: 0.5;
+    font-size: 20px;
+}
+.style-for-card-plant-html span + span{
+    opacity: 1;
+    text-align: center;
+    color: #000;
+    margin: 26px;
+}
+.style-for-card-plant-html p button{
+    width: 100%;
+    background-color: #000;
+    color: #fafafa;
+    border: none;
+    border-radius: 4px;
+    height: 38px;
+    transition: ease-in-out 0.5s;
+}
+.style-for-card-plant-html p button:hover{
+    background-color: #4dd03280;
+    color: #000000;
+}
+/* code for the style of care.html */
+.main-title-care{
+   text-align: center;
+    font-size: 70px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500; 
+    margin: 10px;
+}
+.title-for-plants{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+.slyle-how-to-take-care-of-plants img{
+    border-radius: 5px;
+    box-shadow: 5px 5px 20px #000;
+    margin-top: 10px;
+}
+.slyle-how-to-take-care-of-plants-text h4{
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #a22f23;
+    margin: 5px;
+}
+.slyle-how-to-take-care-of-plants-text p{
+    text-align: center;
+    margin: 10px;
 }

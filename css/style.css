@@ -12,6 +12,7 @@
     font-weight: 400;
     margin-top: 20px;
 }
+
 @media only screen and (max-width: 600px){
     .header-style ul{
       display: block;
@@ -58,12 +59,12 @@
     font-size: 40px;
     letter-spacing: 2px;
     font-weight: 500;
-    color: #fafafa;
+    color: #000;
 }
 .style-text-for-learn-tilte{
     text-align: center;
     font-size: 22px;
-    color: #fafafa;
+    color: #000;
 }
 .sortIcons{
     text-align: center;

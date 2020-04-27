@@ -209,28 +209,28 @@ input[type=submit]:hover {
 
 @keyframes leaf-icon-color-change {
   0%   {color: #b80915;
-font-size:40px
+font-size:40px;
   }
   15%  {color: #f2d56a;
-  font-size:45px
+  font-size:45px;
   }
   30%  {color: #b9c839;
-  font-size:40px
+  font-size:40px;
   }
   45%  {color: #3f2129;
-  font-size:35px
+  font-size:35px;
   }
   60%  {color: #f0ec7f;
-  font-size:40px
+  font-size:40px;
   }
   75%  {color: #ce3528;
-  font-size:45px
+  font-size:45px;
   }
   90%  {color: #362c45;
-  font-size:40px
+  font-size:40px;
   }
   100% {color: #000000;
-  font-size:35px
+  font-size:35px;
   }
 }
 .style-for-card-plant-html{

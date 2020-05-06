@@ -13,9 +13,9 @@
     margin-top: 20px;
 }
 
-@media only screen and (max-width: 600px){
-    .header-style ul{
-      display: block;
+@media only screen and (max-width: 770px){
+    .header-style p{
+      font-size: 40px;
     }
 }
 .header-style a{
@@ -313,8 +313,9 @@ font-size:40px;
     font-size: 20px;
     color: #a22f23;
     margin: 5px;
+    margin-top: 30px;
 }
 .slyle-how-to-take-care-of-plants-text p{
-    text-align: center;
+    text-align: justify;
     margin: 10px;
 }

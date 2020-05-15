@@ -63,15 +63,13 @@ Footer Copyright Info - Exists on every page and protects business copyright.
 Footer Social Icons - Exist on every page and allows all users to access the social platforms.
 Contact Form - Allows potential clients to ask questions, and/or make the first step in their ordering process.
 
-Features to Implement in future
+# Features to Implement in future
 GDPR compliant pop-up screen - Allows all new visitors to the website to approve or deny the processing of their personal data. Ensures the business complies with the EU data protection law. - Javascript Needed
 Add CAPTCHA to contact form - Allows business to protect the contact form from spam. - Javascript Needed
 contact form Send button change from Send to Processing and then when complete changes to Sent. - Javascript Needed
 FAQ page, table with FAQs and dropdown buttons to view answers - Gives potential clients easy to find answers to their common questions. - Javascript Needed for dropdown functionality. Simple FAQ page could be implemented now.
-Artists' blog - Allows new potential clients to discover the website through articles written by the artist establishing her as a thought leader. - Artist currently doesn't have time to write a blog.
-Option to choose the language of the website - As the artist's second language is Dutch, this would allow Dutch speaking visitors to the website to view it in their native language. - Budget not available for professional translation at the time.
 
-Technologies Used
+# technologies Used
 This project uses HTML and CSS programming languages.
 GitPod - This developer used GitPod for their IDE while building the website.
 BootstrapCDN

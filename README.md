@@ -106,7 +106,7 @@ Change the current working directory to the location where you want the cloned d
 Type git clone, and then paste the URL you copied
 Press Enter. Your local clone will be created.
 
-#Credits
+# Credits
 Content
 The text for the Home page and and care page was obtained from Bonnie Plants.
 The text for the rest of the website was created by Johann Aguirre.
